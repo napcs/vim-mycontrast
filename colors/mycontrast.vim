@@ -22,7 +22,7 @@ hi Include guifg=#767676 guibg=NONE guisp=NONE gui=NONE ctermfg=243 ctermbg=NONE
 hi Float guifg=#e6af09 guibg=NONE guisp=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
 hi StatusLineNC guifg=#a8a8a8 guibg=#4e4e4e guisp=#4e4e4e gui=NONE ctermfg=248 ctermbg=239 cterm=NONE
 hi CTagsMember guifg=#fcfcfc guibg=#4d00f2 guisp=#4d00f2 gui=NONE ctermfg=15 ctermbg=57 cterm=NONE
-hi NonText guifg=#8787ff guibg=NONE guisp=NONE gui=NONE ctermfg=105 ctermbg=NONE cterm=NONE
+hi NonText guifg=#8a8885 guibg=NONE guisp=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE
 "hi CTagsGlobalConstant -- no settings --
 hi DiffText guifg=#610627 guibg=#808080 guisp=#808080 gui=NONE ctermfg=52 ctermbg=8 cterm=NONE
 hi ErrorMsg guifg=#ff0808 guibg=NONE guisp=NONE gui=NONE ctermfg=196 ctermbg=NONE cterm=NONE
@@ -35,7 +35,7 @@ hi Conditional guifg=#d76100 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=
 hi StorageClass guifg=#d75f00 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=NONE cterm=NONE
 hi Todo guifg=#ffffff guibg=#fa0505 guisp=#fa0505 gui=NONE ctermfg=15 ctermbg=196 cterm=NONE
 hi Special guifg=#d78700 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
-hi LineNr guifg=#ffffff guibg=#121212 guisp=#121212 gui=bold ctermfg=15 ctermbg=233 cterm=bold
+hi LineNr guifg=#ffffff guibg=#3d3d3d guisp=#3d3d3d gui=bold ctermfg=15 ctermbg=237 cterm=bold
 hi StatusLine guifg=#f7ff00 guibg=#333233 guisp=#333233 gui=bold ctermfg=11 ctermbg=236 cterm=bold
 hi Normal guifg=#dadada guibg=#000000 guisp=#000000 gui=NONE ctermfg=253 ctermbg=NONE cterm=NONE
 hi Label guifg=#d75f00 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=NONE cterm=NONE

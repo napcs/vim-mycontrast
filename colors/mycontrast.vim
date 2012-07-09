@@ -126,6 +126,7 @@ hi link javascriptFunction          Define
 hi link NERDtreeDir          DefinedName
 hi NERDtreeDir guifg=#f7ff00 guibg=#000000 guisp=#4e4e4e gui=NONE ctermfg=11 ctermbg=232 cterm=NONE
 hi yamlKey guifg=#f7ff00 guibg=#000000 guisp=#4e4e4e gui=NONE ctermfg=11 ctermbg=232 cterm=NONE
+hi link yamlBlockMappingKey yamlKey
 hi link javascriptNull            Constant
 hi link rubySymbol                Constant
 hi rubyBlockParameter guifg=#8787d7 guibg=NONE guisp=#303030 gui=NONE ctermfg=104 ctermbg=NONE cterm=NONE

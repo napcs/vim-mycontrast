@@ -1,13 +1,11 @@
 " Vim color file - mycontrast
 set background=dark
-if version > 580
-	hi clear
-	if exists("syntax_on")
-		syntax reset
-	endif
+hi clear
+if exists("syntax_on")
+  syntax reset
 endif
 
-set t_Co=256
+"set t_Co=256
 let g:colors_name = "mycontrast"
 
 hi IncSearch guifg=#030303 guibg=#d7d700 guisp=#d7d700 gui=NONE ctermfg=NONE ctermbg=184 cterm=NONE
@@ -37,7 +35,7 @@ hi Todo guifg=#ffffff guibg=#fa0505 guisp=#fa0505 gui=NONE ctermfg=15 ctermbg=19
 hi Special guifg=#d78800 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
 hi LineNr guifg=#ffffff guibg=#2e2e2e guisp=#2e2e2e gui=bold ctermfg=15 ctermbg=236 cterm=bold
 hi StatusLine guifg=#f7ff00 guibg=#333233 guisp=#333233 gui=bold ctermfg=11 ctermbg=236 cterm=bold
-hi Normal guifg=#dadada guibg=#000000 guisp=#000000 gui=NONE ctermfg=253 ctermbg=NONE cterm=NONE
+hi Normal guifg=#dadada guibg=#000000 guisp=#000000 gui=NONE ctermfg=253 ctermbg=292 cterm=NONE
 hi Label guifg=#d75f00 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=NONE cterm=NONE
 "hi CTagsImport -- no settings --
 hi PMenuSel guifg=#fff761 guibg=#4d4b4d guisp=#4d4b4d gui=NONE ctermfg=227 ctermbg=239 cterm=NONE

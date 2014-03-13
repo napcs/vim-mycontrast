@@ -86,6 +86,7 @@ hi PMenuThumb guifg=#a8a8a8 guibg=#121212 guisp=#121212 gui=NONE ctermfg=248 cte
 hi MatchParen guifg=#cc8710 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
 hi LocalVariable guifg=#8787d7 guibg=NONE guisp=NONE gui=NONE ctermfg=104 ctermbg=NONE cterm=NONE
 hi Repeat guifg=#d75f00 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=NONE cterm=NONE
+hi SpellBad  guifg=#f7f7f7 guibg=#bd1b1b guisp=NONE gui=NONE ctermfg=white ctermbg=88 cterm=NONE
 "hi SpellBad -- no settings --
 "hi CTagsClass -- no settings --
 hi Directory guifg=#d76100 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=NONE cterm=NONE
@@ -117,17 +118,25 @@ hi user1 guifg=#00ff8b guibg=#3e3e5e guisp=#3e3e5e gui=NONE ctermfg=48 ctermbg=6
 hi doxygenspecialonelinedesc guifg=#ad600b guibg=NONE guisp=NONE gui=NONE ctermfg=130 ctermbg=NONE cterm=NONE
 hi cspecialcharacter guifg=#c080d0 guibg=#404040 guisp=#404040 gui=NONE ctermfg=176 ctermbg=238 cterm=NONE
 "hi clear -- no settings --
-
-hi link javascriptRegexpString    String
-hi link javascriptNumber          Number
-hi link javascriptFunction          Define
-hi link NERDtreeDir          DefinedName
+hi link javascriptRegexpString  String
+hi link javascriptNumber Number
+hi link javascriptFunction Function
+hi link NERDtreeDir DefinedName
 hi NERDtreeDir guifg=#f7ff00 guibg=#000000 guisp=#4e4e4e gui=NONE ctermfg=11 ctermbg=232 cterm=NONE
 hi yamlKey guifg=#f7ff00 guibg=#000000 guisp=#4e4e4e gui=NONE ctermfg=11 ctermbg=232 cterm=NONE
 hi link yamlBlockMappingKey yamlKey
-hi link javascriptNull            Constant
-hi link rubySymbol                Constant
+hi link javascriptNull Constant
+hi link rubySymbol Constant
+hi link rubyAttribute Identifier
 hi rubyBlockParameter guifg=#8787d7 guibg=NONE guisp=#303030 gui=NONE ctermfg=104 ctermbg=NONE cterm=NONE
 hi rubyLocalVariableOrMethod guifg=#8787d7 guibg=NONE guisp=#303030 gui=NONE ctermfg=104 ctermbg=NONE cterm=NONE
+hi cssSelectorOp guifg=#8787d7 guibg=NONE guisp=#303030 gui=NONE ctermfg=104 ctermbg=NONE cterm=NONE
 hi link rubyInclude Include
 hi link javaScopeDecl Identifier
+hi link sqlStatement Define
+hi link sqlKeyword Identifier
+hi link sqlOperator DefinedName
+hi link sqlSpecial Identifier
+hi link sqlType Identifier
+hi link htmlTagN htmlTag
+hi link htmlDoctype htmlTag

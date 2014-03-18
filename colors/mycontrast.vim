@@ -121,7 +121,12 @@ hi cspecialcharacter guifg=#c080d0 guibg=#404040 guisp=#404040 gui=NONE ctermfg=
 hi link javascriptRegexpString  String
 hi link javascriptNumber Number
 hi link javascriptFunction Function
+hi link jsFuncCall Function
 hi link NERDtreeDir DefinedName
+hi link jsBrackets DefinedName
+hi link jsFuncBraces DefinedName
+hi link jsFuncParens Define
+hi link jsParens Define
 hi NERDtreeDir guifg=#f7ff00 guibg=#000000 guisp=#4e4e4e gui=NONE ctermfg=11 ctermbg=232 cterm=NONE
 hi yamlKey guifg=#f7ff00 guibg=#000000 guisp=#4e4e4e gui=NONE ctermfg=11 ctermbg=232 cterm=NONE
 hi link yamlBlockMappingKey yamlKey

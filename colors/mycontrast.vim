@@ -43,7 +43,7 @@ hi Search guifg=#0a0a0a guibg=#d7d700 guisp=#d7d700 gui=NONE ctermfg=232 ctermbg
 "hi CTagsGlobalVariable -- no settings --
 hi Delimiter guifg=#d78700 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
 hi Statement guifg=#d78700 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
-"hi SpellRare -- no settings --
+hi SpellRare  guifg=#f7f7f7 guibg=#bd1b1b guisp=NONE gui=NONE ctermfg=white ctermbg=88 cterm=NONE
 "hi EnumerationValue -- no settings --
 hi Comment guifg=#bc4ee0 guibg=NONE guisp=NONE gui=NONE ctermfg=134 ctermbg=NONE cterm=NONE
 hi Character guifg=#61d700 guibg=NONE guisp=NONE gui=NONE ctermfg=76 ctermbg=NONE cterm=NONE
@@ -67,14 +67,14 @@ hi PreProc guifg=#ffd75f guibg=NONE guisp=NONE gui=NONE ctermfg=221 ctermbg=NONE
 "hi EnumerationName -- no settings --
 hi Visual guifg=#a8a8a8 guibg=#444444 guisp=#444444 gui=NONE ctermfg=248 ctermbg=238 cterm=NONE
 "hi MoreMsg -- no settings --
-"hi SpellCap -- no settings --
+hi SpellCap  guifg=#f7f7f7 guibg=#bd1b1b guisp=NONE gui=NONE ctermfg=white ctermbg=88 cterm=NONE
 hi VertSplit guifg=#f7ff00 guibg=#4e4e4e guisp=#4e4e4e gui=NONE ctermfg=11 ctermbg=239 cterm=NONE
 hi Exception guifg=#d75f00 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=NONE cterm=NONE
 hi Keyword guifg=#d75f00 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=NONE cterm=NONE
 hi Type guifg=#d76100 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=NONE cterm=NONE
 hi DiffChange guifg=#dadada guibg=#101957 guisp=#101957 gui=NONE ctermfg=253 ctermbg=17 cterm=NONE
 hi Cursor guifg=#000000 guibg=#ffffff guisp=#ffffff gui=NONE ctermfg=NONE ctermbg=15 cterm=NONE
-"hi SpellLocal -- no settings --
+hi SpellLocal  guifg=#f7f7f7 guibg=#bd1b1b guisp=NONE gui=NONE ctermfg=white ctermbg=88 cterm=NONE
 hi Error guifg=#ff0000 guibg=NONE guisp=NONE gui=NONE ctermfg=196 ctermbg=NONE cterm=NONE
 hi PMenu guifg=#a8a818 guibg=#333333 guisp=#333333 gui=NONE ctermfg=142 ctermbg=236 cterm=NONE
 hi SpecialKey guifg=#5faf00 guibg=NONE guisp=NONE gui=NONE ctermfg=70 ctermbg=NONE cterm=NONE
@@ -87,7 +87,6 @@ hi MatchParen guifg=#cc8710 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=N
 hi LocalVariable guifg=#8787d7 guibg=NONE guisp=NONE gui=NONE ctermfg=104 ctermbg=NONE cterm=NONE
 hi Repeat guifg=#d75f00 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=NONE cterm=NONE
 hi SpellBad  guifg=#f7f7f7 guibg=#bd1b1b guisp=NONE gui=NONE ctermfg=white ctermbg=88 cterm=NONE
-"hi SpellBad -- no settings --
 "hi CTagsClass -- no settings --
 hi Directory guifg=#d76100 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=NONE cterm=NONE
 hi Structure guifg=#d75f00 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=NONE cterm=NONE
